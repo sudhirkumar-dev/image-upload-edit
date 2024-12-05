@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import{ useEffect, useState } from "react";
 import MyDropzone from "./MyDropZone";
 
 const App = () => {
@@ -7,6 +7,7 @@ const App = () => {
   const [editModeImages, setEditModeImages] = useState([]);
   const [finalresponse, setFinalResponse] = useState(null);
   console.log(images, "Images");
+  console.log("New Console")
   console.log(finalresponse, "final response of user");
 
   let s3Images = [
